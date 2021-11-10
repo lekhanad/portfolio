@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+ body{
+     background-image: url("pictures/2.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+ 
+
+ .heading { color: #d54d7b; 
+     font-family: "Great Vibes", cursive; 
+     font-size: 50px; 
+     line-height: 160px; 
+     font-weight: normal; 
+     /* margin-bottom: 33%;  */
+     /* margin-top: 2%;  */
+     text-align: center; 
+     text-shadow: 0 1px 1px #fff;
+     text-transform: uppercase;
+     /* display: flex; */
+  }
+
+ .footer{
+     color: aliceblue;
+     background-color: black;
+     width: 100%;
+     text-align: center;
+ }
+ .content{
+     font-style: bold;
+     font-size: 22px;
+     margin-left: 180px;
+     margin-right: 180px;
+     text-align: justify;
+ }
+ a{
+     text-decoration: none;
+ }
+
+
+ /* .nav {
+   overflow: hidden;
+   background-color: rgb(24, 4, 4); 
+   width: 100%;
+   position: fixed;
+   margin-top: -2%;
+   margin-left: -1%;
+ } */
+ .nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: black;
+     color: white;
+     height: 60px;
+     position: fixed;
+     width: 100%;
+     overflow: hidden;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .nav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+ 
+ .nav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .nav a.active {
+   background-color: #04AA6D;
+   color: white;
+ }
+ 
+ .picture{
+     margin-left: 120px;
+ }
+ #footer {
+ width: 930px;
+ padding: 30px 0 0 0;
+ margin: 0 30px 0 30px;
+ border-top: 1px solid #999;
+ margin: 0 auto;
+ text-align: center;
+ color: #666666;
+ }   
+
+ #footer a {
+ font-weight: bold;
+ color: #135b9b;
+ }
+
+ #footer .footer_menu {
+ margin: 0 0 10px 0;
+ padding: 0px;
+ list-style: none;
+ }
+
+ .footer_menu li {
+ margin: 0px;
+ padding: 0 20px;
+ display: inline;
+ border-right: 1px solid #aea68c;
+ }
+
+ .footer_menu li a {
+ color: #135b9b;
+ }
+
+ .footer_menu .last_menu {
+ border: none;
+ }
+
+
+
+.view{
+  background-image: url(image/bg.png);
+  height: 350px;
+  width: 100%;
+  background-repeat: repeat;
+  animation: view 120s infinite linear;
+  position: absolute;
+  left: 0;
+  top: auto;
+  bottom: 10px;
+  z-index: 1;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+.flight {
+  background-image: url(image/flight.png);
+  height: 167px;
+  width: 261px;
+  background-repeat: repeat;
+  position: absolute;
+  left: 0;
+  top: 52px;
+  z-index: 1;
+  animation: flight 10s infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  
+}
+@keyframes flight {
+0%   { left: 0px; top: 0px;}
+25%   { left: 100px; top: -35px;}
+50%   { left: 150px; top: -50px;}
+100%  { left:250px; top: -98px;}
+
+}
+.conntainer{
+  /* border: 1px solid #000; */
+  height: 314px;
+  position: relative;
+  overflow: hidden;
+}
+.bus{    background-image: url(image/bus.png);
+  height: 216px;
+  width: 241px;
+  z-index: 999;
+  position: absolute;
+  bottom: -42px;
+  background-repeat: no-repeat;
+  animation: bus 20s infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+
+@keyframes bus {
+0%   { left: 0px; bottom: -42px;}
+100%  { left:100%;     bottom: -42px;}
+
+}
+.train{    background-image: url(image/train.png);
+  height: 216px;
+  width: 1000px;
+  z-index: 1;
+  position: absolute;
+  bottom: -42px;
+  background-repeat: no-repeat;
+  animation: bus 10s infinite; 
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+@keyframes bus {
+0%   { left: 0px; bottom: -42px;}
+100%  { left:100%;    bottom: -42px;}
+
+}
+
+.ship{  background-image: url(image/ship.png);
+  height: 216px;
+  width: 345px;
+  z-index: 999;
+  position: absolute;
+  bottom: -42px;
+  background-repeat: no-repeat;
+  animation: ship 20s infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+
+@keyframes ship {
+0%   { left: 0px; bottom: -71px;}
+100%  { left:100%;    bottom: -71px;}
+
+}
+.sea{ 
+  background-image: url(image/sea.png);
+  height: 145px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: -42px;
+  background-repeat: repeat;
+ 
+
+}
+footer p {z-index: 999;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 19px;
+  font-weight: bold;
+  text-shadow: 3px 1px 1px #fff;
+}
