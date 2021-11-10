@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fa {
+padding: 10px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(82, 80, 80);
+}
+.icons .material-icons{
+    font-size: 80px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-play{
+    background-color: crimson;
+    color: white;
+}
+.fa-facebook {
+background: grey;
+color: white;
+}
+
+.fa-twitter {
+background: grey;
+color: white;
+}
+
+.fa-google {
+background: grey;
+color: white;
+}
+
+.fa-linkedin {
+background: grey;
+color: white;
+}
+
+.fa-youtube {
+background: grey;
+color: white;
+}
+
+.fa-instagram {
+background: grey;
+color: white;
+}
+
+.fa-pinterest {
+background: grey;
+color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(27, 27, 56);
+    color:  rgb(250, 242, 242);
+    height: 80px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(4, 4, 49);
+    height: 40px;
+}
+.nav2 a{
+    color: rgb(250, 242, 242);
+    text-decoration: none;
+}
+.nav2 a:hover{
+    color: rgb(235, 123, 145);
+}
+
+.dropdown{
+    display: inline;
+    position: relative;
+    padding: 20px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content{
+    display: inline;
+    background-color: white;
+    line-height: 2;
+    padding: 20px;
+    margin: 20px;
+    margin-left: -50px;
+}
+.dropdown-content a{
+    text-decoration: none;
+    color: black ;
+}
+.top-nav{
+    position: relative;
+    background-color: rgb(27, 27, 56);
+}
+.top-nav1{
+    position: absolute;
+    width: 100%;
+}
+
+.display-movie {
+    display: flex;
+    justify-content: space-around;
+
+}
+.display-movie img{
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    transition-timing-function: ease;
+    transition: width 2s, transform 2s, height 2s;
+}
+
+
+.display-movie img:hover {
+    transform: scale(1.1);
+}
+.display-movie p{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inside-content{
+    margin: 0px 90px;
+}
+.shape{
+    display: flex;
+}
+  .trapezium{
+    border-top: 100px solid rgb(4, 4, 49) ;
+    border-left: 0px solid black;
+    border-right: 100px solid black;
+    height: 0;
+    width: 500px;
+    color: black;
+    /* border-bottom: 100px solid palevioletred; */
+
+} 
+.inverse-trapezium{
+    border-bottom: 100px solid palevioletred;
+    border-left: 100px solid black;
+    border-right: 0px solid black;
+    height: 0;
+    width: 1000px;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.inside-content1{
+    margin: 0px 90px;
+}
+.entertainment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.entertainment img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+.premieres{
+    background-color: rgb(27, 27, 56);
+    padding-top: 80px;
+    color: blanchedalmond;
+
+
+}
+.premieres-heading{
+    display: flex;
+
+}
+.inside-content3{
+    margin: 0px 90px;
+}
+.premieres-content{
+    display: flex;
+    justify-content: space-around;
+}
+.premieres-content img{
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;  
+}
+.footer{
+    background-color: rgb(35, 35, 43);
+}
+.footer1{
+    color: grey;
+    margin: 0px 90px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    font-weight: 500;
+}
+.footer-content{
+    font-size: 15px;
+}
+.footer-end{
+    color: white;
+    text-align: center;
+}
+.privacy-note{
+    background-color: aliceblue;
+    padding: 30px 110px; 
+    font-size: 15px;
+}
+.list{
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(35, 35, 43);
+    padding: 30px;
+    margin: 0px 150px;
+
+}
+
+
+.scroll-images{
+    box-sizing: border-box;    
+}
+
+.mySlides {
+    display: none;
+}
+.scroll-images img {
+    vertical-align: middle;
+    height: 300px;
+    width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active .dot:hover{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .sub-heading{
+      font-size: 28px;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+  }
