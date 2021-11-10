@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo img {
+    height: 70px;
+    width: 90px;
+}
+
+.img {
+    transition-timing-function: ease;
+    transition: width 2s, transform 2s, height 2s;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+#section2 {
+    background-color: rgb(239, 245, 248);
+    color: rgb(64, 64, 92);
+}
+
+.bi {
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.bi:hover {
+    opacity: 0.7;
+}
+
+.bi-facebook {
+    background: rgb(100, 171, 189);
+    color: white;
+}
+
+.bi-twitter {
+    background: rgb(100, 171, 189);
+    color: white;
+}
+
+.bi-google {
+    background: rgb(100, 171, 189);
+    color: white;
+}
+
+.bi-linkedin {
+    background: rgb(100, 171, 189);
+    color: white;
+}
+
+.bi-instagram {
+    background: rgb(100, 171, 189);
+    color: white;
+}
+
+#footer-links {
+    list-style-type: none;
+}
+
+#footer-links a {
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+}
+
